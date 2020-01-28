@@ -4,6 +4,9 @@
 int is_prime(unsigned val)
 {
     unsigned divisor;
+	unsigned divisor2;
+	unsigned divisor1;
+	unsigned divisor3;
 
     if (val == 1 || val == 2 || val == 3)
         return 1;
